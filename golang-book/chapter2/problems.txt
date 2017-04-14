@@ -1,0 +1,27 @@
+1. What is whitespace?
+
+Newlines, spaces and tabs are considered whitespace because you cannot see them.
+
+2. What is a comment? What are the two ways of writing a comment?
+
+A comment is ignored by the compiler. It can be used to convey information to
+yourself or someone else reading the program source.
+
+// my comment
+/* my comment */
+
+3. Our program began with "package main". What would the files in the "fmt"
+package begin with?
+
+They would begin with "package main".
+
+4. We used the Println function defined in the "fmt" package. If we wanted to
+use the "Exit" function from the "os" package, what would you have to do?
+
+We would have to 'import "os"' and then call os.Exit.
+
+5. Modify the program we wrote so that instead of printing "Hello World", it
+prints "Hello, my name is Daniel".
+
+~/code/go/golang-book/chapter2❯ go run main.go
+Hello, my name is Daniel
